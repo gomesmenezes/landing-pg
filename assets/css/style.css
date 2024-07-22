@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #191919;
+}
+
+header {
+  margin: 64px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav .container-nav {
+  font-family: Londrina Solid;
+  font-size: 32px;
+  display: flex;
+  gap: 40px;
+}
+header nav .container-nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.whats {
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+
+#nav-whats {
+  text-decoration: none;
+  color: #636363;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+{
+  "name": "seu-projeto",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sass --watch assets/sass/main.sass:assets/css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
