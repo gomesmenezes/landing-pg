@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  margin: 64px auto;
+  margin: 64px auto 0px;
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -22,6 +22,7 @@ header nav .container-nav {
   display: flex;
   gap: 40px;
 }
+
 header nav .container-nav a {
   text-decoration: none;
   color: #FFFFFF;
@@ -36,6 +37,64 @@ header nav .container-nav a {
 #nav-whats {
   text-decoration: none;
   color: #636363;
+}
+
+main {
+  position: relative;
+}
+
+.heading-text {
+  font-family: Inter;
+  font-size: 80px;
+  color: #636363;
+  font-weight: 900;
+}
+
+#heading-bg {
+  position: absolute;
+  z-index: -1;
+  font-family: Londrina Solid;
+  color: #212121;
+  width: 70%;
+  height: 319px;
+  font-size: 350px;
+  margin: 71px auto 0px 47px;
+}
+
+#heading {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 140px;
+  bottom: 150px;
+}
+
+#tatue-se {
+  color: #FFD911;
+}
+
+.text-footer {
+  display: flex;
+  gap: 7px;
+  margin: 19px auto 19px 160px;
+}
+
+#men-img {
+  width: 365px;
+  position: relative;
+  z-index: 1;
+  margin-left: 60%;
+  margin-bottom: -6.5%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #161616;
+  padding: 20px 0;
+  position: relative;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

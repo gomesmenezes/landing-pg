@@ -10,9 +10,8 @@ body
     color: $color-heading
 
 header
-    margin: 64px auto
+    margin: 64px auto 0px
     width: 80%
-
     display: flex
     justify-content: space-between
 
@@ -21,22 +20,75 @@ header
         .container-nav
             font-family: $header-nav
             font-size: 32px
-
             display: flex
             gap: 40px
-    header
+
+header
     nav
         .container-nav
             a
                 text-decoration: none
                 color: $color-heading
 
-.whats 
+.whats
     display: flex
     justify-content: end
     gap: 5px
 
-#nav-whats 
+#nav-whats
     text-decoration: none
     color: $text-muted
 
+main
+    position: relative
+
+.heading-text
+    font-family: $heading
+    font-size: 80px
+    color: $text-muted
+    font-weight: 900
+
+#heading-bg
+    position: absolute
+    z-index: -1
+
+    font-family: $header-nav
+    color: $color-tattoo
+
+    width: 70%
+    height: 319px
+    font-size: 350px
+
+    margin: 71px auto 0px 47px
+
+#heading
+    position: absolute
+    display: flex
+    flex-direction: column
+    left: 140px
+    bottom: 150px
+
+#tatue-se
+    color: $brand-color
+
+.text-footer
+    display: flex
+    gap: 7px
+    margin: 19px auto 19px 160px
+
+#men-img
+    width: 365px
+    position: relative
+    z-index: 1
+    margin-left: 60%
+    margin-bottom: -6.5%
+
+footer
+    position: fixed
+    left: 0
+    bottom: 0
+
+    background-color: $bg-footer-color
+    padding: 20px 0
+    position: relative
+    z-index: 0
